@@ -175,3 +175,48 @@ Below is the use case diagram for the **Booking Management System**. It shows ho
 *Figure: Use Case Diagram for the Booking Management System.*
 
 ---
+
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+**Acceptance Criteria** are specific, predefined conditions that a software feature must meet to be accepted by stakeholders.  
+They define what success looks like for a feature and ensure that the final product aligns with business goals and user expectations.
+
+Acceptance criteria serve as a **bridge between requirements and testing**, helping both developers and testers understand exactly what needs to be built and validated.
+
+---
+
+### Importance of Acceptance Criteria
+- **Clarity and Alignment:** Ensures all stakeholders share a clear understanding of what a feature should do.  
+- **Guides Development:** Acts as a checklist for developers to know when a feature is complete.  
+- **Improves Testing:** Provides measurable standards for QA teams to verify whether the feature works as intended.  
+- **Reduces Miscommunication:** Minimizes ambiguity by setting clear and testable expectations before development begins.  
+- **Supports Agile Practices:** In Agile environments, acceptance criteria help define the “Done” condition for user stories.
+
+---
+
+### Example: Checkout Feature (Booking Management System)
+Below is an example of well-defined acceptance criteria for the **Checkout Feature** in the Booking Management System.
+
+#### **Feature:** Checkout Process for Property Booking  
+
+| **ID** | **Acceptance Criteria** | **Priority** | **Status** |
+|:-------|:-------------------------|:-------------|:------------|
+| AC-01 | Users must be able to view a summary of their selected property before payment. | High | Pending |
+| AC-02 | The system must display the total cost, including taxes and service charges, before confirmation. | High | Pending |
+| AC-03 | Users must be able to choose a payment method (Credit Card, PayPal, Bank Transfer). | High | Pending |
+| AC-04 | On successful payment, the user should receive a confirmation message and email within 2 minutes. | High | Pending |
+| AC-05 | If payment fails, the system should display an appropriate error message and allow retry. | Medium | Pending |
+| AC-06 | Booking details should be saved automatically in the user’s account upon successful payment. | High | Pending |
+
+---
+
+### ✅ Benefits of Well-Defined Acceptance Criteria
+- Ensures consistent understanding among team members.  
+- Improves software quality by setting measurable success conditions.  
+- Helps in validating that all user requirements have been met.  
+- Serves as a reference during project reviews and quality assurance.
+
+---
+
+*Figure: Acceptance criteria define when a feature is considered complete and acceptable for release.*
