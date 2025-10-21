@@ -133,3 +133,55 @@ By identifying potential issues early and defining the system’s needs precisel
 Requirement analysis produces structured documentation; including functional, non-functional, and user requirements, that guides developers, testers, and designers. This blueprint ensures consistency, improves collaboration, and forms the basis for validation and acceptance testing.
 
 ---
+
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+A **Use Case Diagram** is a visual representation of how different users (called *actors*) interact with a system to achieve specific goals (*use cases*).  
+It helps in identifying the functionalities the system must support and clarifies relationships between users and system features.
+
+### Benefits of Use Case Diagrams
+- **Clarifies System Scope:** Helps both developers and stakeholders understand what the system will and won’t do.  
+- **Improves Communication:** Provides a clear and simple visual tool for discussing system interactions.  
+- **Identifies Actors and Use Cases:** Makes it easy to visualize which users perform which actions.  
+- **Facilitates Requirement Validation:** Ensures all key functionalities are captured and aligned with business needs.
+
+---
+
+### Booking Management System – Use Case Diagram
+
+Below is the use case diagram for the **Booking Management System**. It shows how various users interact with the system to perform different operations.
+
+#### **Actors**
+- **Guest User:** Can search for properties and view details.  
+- **Registered User:** Can search, book properties, manage bookings, and view booking history.  
+- **Admin:** Manages property listings, user accounts, and system reports.
+
+#### **Use Cases**
+- Search for properties  
+- View property details  
+- Register/Login  
+- Book a property  
+- Manage bookings  
+- Add/Edit/Delete property listings  
+- Generate reports  
+
+---
+
+### 📊 **Use Case Diagram**
+
+![Booking System Use Case Diagram](./alx-booking-uc.png)
+
+*Figure: Use Case Diagram for the Booking Management System.*
+
+---
+
+### 🛠️ **How to Create the Diagram (using Draw.io)**
+1. Open [https://app.diagrams.net/](https://app.diagrams.net/).  
+2. Choose **“Blank Diagram”** and name it `alx-booking-uc`.  
+3. Use the **ellipse shape** for use cases (system functions).  
+4. Use **stick figures** for actors (Guest User, Registered User, Admin).  
+5. Connect actors to their respective use cases with straight lines.  
+6. Save the diagram, then go to **File → Export as → PNG**, and name it:  
+
+---
